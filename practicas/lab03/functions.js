@@ -11,7 +11,7 @@ function log(){
         console.log("%s >%s", Date(),arguments[i]);
     }
 }
-
+*/
 var contact = new Object();
 //var contact;
 
@@ -21,16 +21,16 @@ contact.phone=123456;
 var c2 = {"name" : "paul", "phone": 6789};
 
 function printContact(contact){
-    log(contact.name,contact.phone);
+    console.log("Nombre: "+contact.name,", Telefono: "+contact.phone);
 }
 
-printContact(contact);
+printContact(c2);
 
 var numbers = new Array();
 numbers.push(1);
 
 var numbers = [1,2,3,4,5];
-*/
+/*
 //Imprimir todos los valores de un array.
 function printNumbers(n){
     console.log(n);
@@ -69,3 +69,4 @@ var sum = numbers
             });
 
 console.log(sum);
+*/
