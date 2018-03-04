@@ -1,4 +1,5 @@
-//var cool = require("cool-ascii-faces");
+var cool = require("cool-ascii-faces");
+console.log("Hello world!!");
 var express = require("express");
 var app=express();
 
@@ -7,4 +8,4 @@ app.get("/hello",(req,res)=>{
 });
 
 app.listen(process.env.PORT);
-//console.log(cool);
+console.log(cool());
