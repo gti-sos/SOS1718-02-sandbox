@@ -1,0 +1,20 @@
+{
+  "name": "lab04",
+  "version": "0.0.0",
+  "description": "My first module in NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gti-sos/SOS1718-02-sandbox.git"
+  },
+  "author": "Andres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gti-sos/SOS1718-02-sandbox/issues"
+  },
+  "homepage": "https://github.com/gti-sos/SOS1718-02-sandbox#readme"
+}
