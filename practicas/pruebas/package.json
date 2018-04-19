@@ -1,0 +1,26 @@
+{
+  "name": "sos1718-02",
+  "version": "0.0.0",
+  "description": "first module in NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gti-sos/SOS1718-02.git"
+  },
+  "author": "sos1718-02",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gti-sos/SOS1718-02/issues"
+  },
+  "homepage": "https://github.com/gti-sos/SOS1718-02#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongodb": "^3.0.4",
+    "nedb": "^1.8.0"
+  }
+}
